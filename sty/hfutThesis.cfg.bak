@@ -125,7 +125,7 @@
 %
 %%%%******************* config chinese labels in ctex ***************************
 %%
-\def\hfut@label@abstract{摘\hfutspace 要}
+\def\hfut@label@abstract{摘要}
 \def\hfut@label@keywords{关键词：}
 \def\hfut@label@englishabstract{Abstract}
 \def\hfut@label@englishkeywords{Keywords:\ }
@@ -148,18 +148,18 @@
 %%
 \def\CTEX@chapter@nameformat{\bfseries\heiti\zihao{-3}\centering}
 \def\CTEX@chapter@titleformat{\bfseries\heiti\zihao{-3}\centering}
-\def\CTEX@chapter@beforeskip{15 pt}
-\def\CTEX@chapter@afterskip{15 pt}
+\def\CTEX@chapter@beforeskip{12 pt}
+\def\CTEX@chapter@afterskip{12 pt}
 %%
 %%%%% --------------------------------------------------------------------------
 %%
 %%%%******************* the Chapter title format *******************************
 %%
-%%\def\CTEX@section@format{\bfseries\songti\zihao{-4}\centering}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\def\CTEX@section@format{\bfseries\songti\zihao{-4}\centering}
 \def\CTEX@chapter@format{\bfseries\heiti\zihao{-3}}
-%%%%%%%%%%%%\def\CTEX@chapter@beforeskip{18 pt}
-%%%%%%%%%%%%\def\CTEX@chapter@afterskip{18 pt}
-%\CTEXsetup[name={第, 章}]{chapter}
+\def\CTEX@chapter@beforeskip{12 pt}
+\def\CTEX@chapter@afterskip{12 pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\CTEXsetup[name={第, 章}]{chapter}
 \CTEXsetup[name={,}]{chapter}
 \CTEXsetup[number={\arabic{chapter}}]{chapter}
 %%
@@ -167,28 +167,28 @@
 %%
 %%%%******************* the section title format *******************************
 %%
-\def\CTEX@section@format{\bfseries\heiti\zihao{4}}
-%%%%%%%%%%\def\CTEX@section@format{\bfseries\songti\zihao{4}}
-\def\CTEX@section@beforeskip{18 pt}
-\def\CTEX@section@afterskip{18 pt}
+\def\CTEX@section@format{\bfseries\heiti\zihao{-4}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\def\CTEX@section@format{\bfseries\songti\zihao{4}}
+\def\CTEX@section@beforeskip{12 pt}
+\def\CTEX@section@afterskip{12 pt}
 %%
 %%%%% --------------------------------------------------------------------------
 %%
 %%%%******************* the subsection title format ****************************
 %%
-\def\CTEX@subsection@format{\bfseries\heiti\zihao{-4}}
+\def\CTEX@subsection@format{\bfseries\heiti\zihao{5}}
 \def\CTEX@subsection@indent{2\ccwd}
-\def\CTEX@subsection@beforeskip{18 pt}
-\def\CTEX@subsection@afterskip{18 pt}
+\def\CTEX@subsection@beforeskip{8 pt}
+\def\CTEX@subsection@afterskip{8 pt}
 %%
 %%%%% --------------------------------------------------------------------------
 %%
 %%%%**************** the subsubsection title format ****************************
 %%
-\def\CTEX@subsubsection@format{\bfseries\songti\zihao{-4}}
+\def\CTEX@subsubsection@format{\bfseries\songti\zihao{5}}
 \def\CTEX@subsubsection@indent{2\ccwd}
-%\def\CTEX@subsubsection@beforeskip{-2ex \@plus -1ex \@minus -.2ex}
-%\def\CTEX@subsubsection@afterskip{1.0ex \@plus .2ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\def\CTEX@subsubsection@beforeskip{-2ex \@plus -1ex \@minus -.2ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\def\CTEX@subsubsection@afterskip{1.0ex \@plus .2ex}
 %%
 %%%%% --------------------------------------------------------------------------
 %%

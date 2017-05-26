@@ -3,8 +3,8 @@
 %%%%***************************** version information *********************************
 %%
 %% this is the "custom.sty" package used for configure document styles
-%% rewritten by Jiahong Dai <brand_daijh@163.com>
-%% $Last-modified: 26 May 2017
+%% rewritten by Jie Cheng<chengjie0827@gmail.com>
+%% $Last-modified: 08 Jan 2015
 %%
 %% This program can be redistributed and/or modified under the terms
 %% of the GNU Public License, version 2.
@@ -13,7 +13,7 @@
 %%
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesPackage{sty/custom}
- [2015/01/05 v0.1 commons
+ [2015/01/05 v0.1 commons 
  macros package]
 %%%%% --------------------------------------------------------------------------------
 %%

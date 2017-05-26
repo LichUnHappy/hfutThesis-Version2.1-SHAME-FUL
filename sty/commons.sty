@@ -99,7 +99,7 @@
 %% >>> graphic packages
 %%
 \RequirePackage{graphicx}% graphics packages for including graphics
-\RequirePackage[margin=10.5pt,font=small,labelfont=bf]{caption}% caption options like:[margin=10pt,font=small,labelfont=bf]
+\RequirePackage[margin=8pt,font=small,labelfont=bf]{caption}% caption options like:[margin=10pt,font=small,labelfont=bf]
 \RequirePackage[section]{placeins}% to prevent floats from being moved over section
 \usepackage{subfigure}% subcaptions for subfigures
 \usepackage{subfigmat}% matrices of similar subfigures, aka small mulitples
@@ -109,15 +109,15 @@
 \captionsetup{
   labelsep=none
 }
-\captionsetup{belowskip=-10pt}% narrow the skip between caption and main words
+\captionsetup{belowskip=0pt}% narrow the skip between caption and main words
 \setlength\abovedisplayskip{0pt}% set display skip between equations and main words
 \setlength\belowdisplayskip{0pt}
 %%
 %% >>> Page Layout and Line Spacing
 %%
 \RequirePackage{fancyhdr}% fancy headers and footers
-%\RequirePackage{geometry}% page layout
-%\RequirePackage{setspace}% line spacing
+\RequirePackage{geometry}% page layout
+\RequirePackage{setspace}% line spacing
 %%
 %%% >>> Natural Sciences Citations and References
 %%
@@ -127,7 +127,7 @@
 %\RequirePackage[square,comma,numbers,sort&compress]{natbib}% numeric cite mode
 \RequirePackage[square,comma,super,sort&compress]{natbib}% superscripted numeric cite mode
 %\bibliographystyle{apalike}% APA citation style
-%\bibliographystyle{unsrtnat}% sort as referenced
+\bibliographystyle{unsrtnat}% sort as referenced
 %\bibliographystyle{plainnat}% sort by author name
 %\bibliographystyle{GBT7714-2005NLang}% sort as CHN standard 3-type
 %\bibliographystyle{GBT7714-2005NLang_UP}
@@ -211,8 +211,11 @@
 %%
 %%% >>> Layout and Margin
 %%
-%\geometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm}% normal margins at each side.
+\usepackage{geometry}
+\geometry{left=2.8cm,right=2.8cm,top=2.54cm,bottom=2.54cm}% normal margins at each side.
 %\geometry{left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm}% normal margins at each side.
+\usepackage{setspace}
+\setlength{\baselineskip}{20pt}
 %%%%% --------------------------------------------------------------------------------
 %%
 %%%%*****************************Configuration nomenclature***************************

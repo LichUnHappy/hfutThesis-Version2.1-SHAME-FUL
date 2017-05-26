@@ -3,8 +3,8 @@
 %%%%***************************** version information *********************************
 %%
 %% this is the "commons.sty" package used for configure document styles
-%% rewritten by Jie Cheng<chengjie0827@gmail.com>
-%% $Last-modified: 08 Jan 2015
+%% rewritten by Jiahong Dai<brand_daijh@163.com>
+%% $Last-modified: 26 May 2017
 %%
 %% This program can be redistributed and/or modified under the terms
 %% of the GNU Public License, version 2.
@@ -211,7 +211,7 @@
 %%
 %%% >>> Layout and Margin
 %%
-%\geometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm}% normal margins at each side.
+\geometry{left=2.8cm,right=2.8cm,top=2.54cm,bottom=2.54cm}% normal margins at each side.
 %\geometry{left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm}% normal margins at each side.
 %%%%% --------------------------------------------------------------------------------
 %%
