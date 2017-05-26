@@ -1,7 +1,7 @@
 %%%%% ------------------------------------------------------------------------------------------
 %%
 %%     This is file `hfutThesis.cls',
-%%     This file was recreated by Jie Cheng from 'ucasthesis.cls' Ref [1, 2]
+%%     This file was recreated by Jiahong Dai from 'njustThesis.cls' Ref [1, 2]
 %%
 %%%%% ------------------------------------------------------------------------------------------
 %% GUN

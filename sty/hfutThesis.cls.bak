@@ -394,14 +394,14 @@
 %%%%**************************** make abstract & keywords *****************************
 %% 1. CHN abstract
 \newenvironment{abstract}
-  {{\Nchapter{\bf\heiti\zihao{4}\hfut@label@abstract}}}
-  {}
+  {\noindent{\bf\heiti\zihao{4}\hfut@label@abstract}}
+
 %% 2. CHN kewords
 \newcommand\keywords[1]{%
-  \vspace{2ex}\noindent{\bf\songti\zihao{4} \hfut@label@keywords} #1}
+  \vspace{2ex}\noindent{\bf\songti\zihao{-4} \hfut@label@keywords} #1}
 %% 3. Eng abstract
 \newenvironment{englishabstract}
-  {{\centering\Nchapter{\hfut@label@englishabstract}}}
+  {{\noindent{\zihao{4}\hfut@label@englishabstract}}}
   {}
 %% 4. Eng keywords
 \newcommand\englishkeywords[1]{%

@@ -91,7 +91,7 @@
 另外，在编译的过程中首次编译全文后需要对引用项进行索引编译，
 
 \begin{center}
-  {\color{blue}makeindex Version2.1.nlo -s nomencl.ist -o Version2.1.nls}
+  {\color{blue}makeindex myThesis.nlo -s nomencl.ist -o myThesis.nls}
 \end{center}
 
 再进行第二次编译后才能更新全文中的交叉引用项。
@@ -104,7 +104,7 @@
 同样，在编译的过程中首次编译全文后需要对参考文献进行索引编译，
 
 \begin{center}
-  {\color{blue}bibtex Version2.1.aux}
+  {\color{blue}bibtex myThesis.aux}
 \end{center}
 
 再进行第二次编译后才能更新全文中的文献引用项。
